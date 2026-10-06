@@ -1,8 +1,9 @@
-cliente ( Nome, CPF, data_de_nascimento)
+Cliente - id, nome, número 
  |
  |
+/|
+Venda - id, data_entrega, id_produto, id_cliente 
+ | 
+ | 
  |
-vendas( 
- |
- |
-/|\
+Produto - id, nome_do_bolo, preço
